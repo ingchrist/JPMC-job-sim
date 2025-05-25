@@ -45,7 +45,7 @@
 			<version>2.2.224</version>
 		</dependency>
 
-		<!-- Test Dependencies -->
+		<!-- Spring Boot Starter Test -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -53,6 +53,7 @@
 			<scope>test</scope>
 		</dependency>
 
+		<!-- Spring Kafka Test -->
 		<dependency>
 			<groupId>org.springframework.kafka</groupId>
 			<artifactId>spring-kafka-test</artifactId>
@@ -60,6 +61,7 @@
 			<scope>test</scope>
 		</dependency>
 
+		<!-- Kafka Testcontainers -->
 		<dependency>
 			<groupId>org.testcontainers</groupId>
 			<artifactId>kafka</artifactId>
