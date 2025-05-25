@@ -7,6 +7,4 @@ spring:
     consumer:
       auto-offset-reset: earliest
       group-id: test-group
-    producer:
-      key-serializer: org.apache.kafka.common.serialization.StringSerializer
-      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+    producer: {}
